@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-ums.iml" filepath="$PROJECT_DIR$/cloud-ums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-api/hw-cloud-ums-api.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-api/hw-cloud-ums-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-backboot/hw-cloud-ums-backboot.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-backboot/hw-cloud-ums-backboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-config/hw-cloud-ums-config.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-config/hw-cloud-ums-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-dao/hw-cloud-ums-dao.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-dao/hw-cloud-ums-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-domain/hw-cloud-ums-domain.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-domain/hw-cloud-ums-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-manager/hw-cloud-ums-manager.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-manager/hw-cloud-ums-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-parent/hw-cloud-ums-parent.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-parent/hw-cloud-ums-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-service/hw-cloud-ums-service.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-service/hw-cloud-ums-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-ui/hw-cloud-ums-ui.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-ui/hw-cloud-ums-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-util/hw-cloud-ums-util.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-util/hw-cloud-ums-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-webboot/hw-cloud-ums-webboot.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-webboot/hw-cloud-ums-webboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-xm-dao/hw-cloud-ums-xm-dao.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-xm-dao/hw-cloud-ums-xm-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-xm-domain/hw-cloud-ums-xm-domain.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-xm-domain/hw-cloud-ums-xm-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-xm-service/hw-cloud-ums-xm-service.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-xm-service/hw-cloud-ums-xm-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw-cloud-ums-xm-webboot/hw-cloud-ums-xm-webboot.iml" filepath="$PROJECT_DIR$/hw-cloud-ums-xm-webboot/hw-cloud-ums-xm-webboot.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,1025 @@
+15:00:00.015,select this_.id as id1_11_0_, this_.createTime as createTi2_11_0_, this_.lastChangeTime as 
+lastChan3_11_0_, this_.status as status4_11_0_, this_.beenDeleted as beenDele5_11_0_, this_.deletedTime 
+as deletedT6_11_0_, this_.contact as contact7_11_0_, this_.divisionId as division8_11_0_, this_.domain 
+as domain9_11_0_, this_.email as email10_11_0_, this_.enabled as enabled11_11_0_, this_.latitude 
+as latitud12_11_0_, this_.latitudeDone as latitud13_11_0_, this_.longitude as longitu14_11_0_, 
+this_.longitudeDone as longitu15_11_0_, this_.menuUrl as menuUrl16_11_0_, this_.navigationUrl 
+as navigat17_11_0_, this_.phone as phone18_11_0_, this_.tenantCode as tenantC19_11_0_, this_.tenantName 
+as tenantN20_11_0_ from cloud_management_tenant this_ where this_.beenDeleted=0 
+ {executed in 9 msec}
+15:00:00.047,select this_.id as id1_21_0_, this_.createTime as createTi2_21_0_, this_.lastChangeTime as 
+lastChan3_21_0_, this_.status as status4_21_0_, this_.beenDeleted as beenDele5_21_0_, this_.deletedTime 
+as deletedT6_21_0_, this_.latitude as latitude7_21_0_, this_.latitudeDone as latitude8_21_0_, 
+this_.longitude as longitud9_21_0_, this_.longitudeDone as longitu10_21_0_, this_.mapStr as 
+mapStr11_21_0_, this_.mapType as mapType12_21_0_, this_.systemCode as systemC13_21_0_, this_.systemName 
+as systemN14_21_0_, this_.systemType as systemT15_21_0_, this_.tenantId as tenantI16_21_0_, 
+this_.website as website17_21_0_, this_.welcomePage as welcome18_21_0_ from cloud_system this_ 
+where this_.beenDeleted=0 and this_.tenantId in ('019c8438d67b46a99fed4d2f96e94c20', '0419503283864c53b5ff00c104ad5579', 
+'06c7cd71d71d4eb6b523315b384b2235', '0888cf85092644338daa08fe286ae679', '0a44ffb26451476984b39a023f8ac2df', 
+'0e6de4be0de84c6da38c8c9d460a7a60', '0ebb5207cb054aebb7fce5d88c6e3222', '1016b14c71024f188999b57ea751c2a8', 
+'108e4387ddc444e5a247d52b96090a9a', '10d0310c555e4d0faaee3747c2205902', '12622abe8c12402ebc145b7d901f9487', 
+'15a1036a0af140008d0d007cd13b0915', '19165e0404764567ad2c812bf444d6c6', '193b9d2fac10495cb2a3da8e3d636d6d', 
+'1a68f2b071bf4ee997bd12bf8bcee104', '20fe3353f4fa4f5488f894349e6951e3', '25946dcf40be4bebbba9ce314ed4e628', 
+'27406b1ea40d439aa4896396fca6c2b7', '2b07e8b5aadd4756a3957d9bf21083c5', '2c545b6be2d24f689e7ae9434ac7ff23', 
+'2c6691b6eef146c0b48a3abcb314bcaf', '2ee983661d464d6aa5a9e7a8b9ecd34e', '373b9daca3634fe492abb5eb808e7bd2', 
+'3dd8cd74d47c4e55b4d5c6c115446943', '3df5847586df4d01bc14b41f8e592a85', '48f7fb0c84164ae1abc9c5cce2ce1bf1', 
+'4bd7b80f13914375bf45c34e74ef7638', '540f7b512dea48b988e59565c0619654', '55188e887ff942748bfea284505fed92', 
+'556adf4e43bb4bcb8dfa3456d4ea446d', '5803d34a5a544c919cbf06693ef1950f', '5908c169c6d846cd9a1cac5edafc4be6', 
+'591a3c17dd564366855c8d25e74de013', '595383ea81e24b858e7aea832eb5a920', '5fa9194d80c042bd80b2b0e0ba32de5b', 
+'653013061f3b4f318d793727a77baf39', '658afc1c2164463fb1f31061ef3d359e', '67ffbbac051647cc9cecc0b3bcd5c513', 
+'6b04b934d2364525b35fc79167d761d1', '6ea09ab08e0a4474aaf87cfb4e1c8b66', '6fe0789def6b44cca5bbb4a2496f40d4', 
+'7338ab395fe54a69bb2610366e868988', '775dd360053740c8b7c8c17fb7920ae1', '78e783fed3654f1db99948e36330536d', 
+'7c5d788f780541c7b106a32165afe80f', '7e6362d9701040479394bca66300f265', '7f694736e9554096aa32e0fac92b0664', 
+'7fcf12f853d841b7831e6d81c67414dc', '8118f87387c6442291a92d4437abc6c4', '820fc983ab1846b1ae2254a5c5021c47', 
+'83fada9ed83e4f37aba9abac9f1e3a78', '88cd95794f234363928046609574bd96', '90f2101c9f4844509b434e5b0aa24407', 
+'962a55ca95d44dfaa970a8129052fb3b', '9d08be0474af45538709aff3646e3d76', '9d9be1e01b4d491d92212866cde3fbba', 
+'9e6ee67f75f648559536e0c60454b8a6', '9fccca56387744b4b9f02ceb38dd8259', 'a3542090fb90415db8f61d48c214d144', 
+'a482702060274f50ab323f027367015e', 'a50fc0f773d443b190da77b851533b35', 'a579abd9183f4f4eaa07f46b36ac3f01', 
+'a5f8ec8ee51b4959af5e1305379440ae', 'ab5bed35a52a49c9b3e6eeeb1751875c', 'abc82c7ae6234ea98475bd73ccc4d503', 
+'acf83cd567364d1b9653f8c14f3765d6', 'af7f13af4e1240dbbc7098cde3c18aab', 'b1500785bf904d73bea9d2d254a7878d', 
+'b4045b9d7034430982b33e2bbcd0a3c7', 'b53bb07fb4504c4abec836a2235b6049', 'b5f4c68e6f48472d9620bf1ad5477672', 
+'b62e720eea4a4086b13dde5d459357a9', 'bb55afe4672f4cb491e9c0ebb934ef9a', 'd145ebfd317447e9a7c7952874ca0cda', 
+'d355f3d4de424f52b31af0d882914527', 'd612c82c8ecc4051aa25da740f77041e', 'd85faf626e2b45bdb88b6a14a6f2ef5f', 
+'decc7028c92e41d49e61eaefc4af2642', 'e0de29fb52874fe4a7bf03538771b754', 'e3a405e05e234876a41c40859768f855', 
+'e9917368a8a84c2b944d371d617d0110', 'ec2e8f1be02e44b5b3472673aad1517f', 'ec7afbf6b3864cf5a62bd4de63432ab3', 
+'f0d7e0dfd0b647e2889c8ec3d44de303', 'f1d7761d79dd43ef9bccb3c78ed3516f', 'f530c3b987a54712985f6cf421424777', 
+'f65f3b268155431d9dc4c6c56fdde245', 'fccc2df2cc3246a28758d7d194839d0e', 'CLOUD_TENANT') 
+ {executed in 10 msec}
+15:00:00.057,select this_.id as id1_21_0_, this_.createTime as createTi2_21_0_, this_.lastChangeTime as 
+lastChan3_21_0_, this_.status as status4_21_0_, this_.beenDeleted as beenDele5_21_0_, this_.deletedTime 
+as deletedT6_21_0_, this_.latitude as latitude7_21_0_, this_.latitudeDone as latitude8_21_0_, 
+this_.longitude as longitud9_21_0_, this_.longitudeDone as longitu10_21_0_, this_.mapStr as 
+mapStr11_21_0_, this_.mapType as mapType12_21_0_, this_.systemCode as systemC13_21_0_, this_.systemName 
+as systemN14_21_0_, this_.systemType as systemT15_21_0_, this_.tenantId as tenantI16_21_0_, 
+this_.website as website17_21_0_, this_.welcomePage as welcome18_21_0_ from cloud_system this_ 
+where this_.beenDeleted=0 and this_.tenantId is null 
+ {executed in 10 msec}
+15:00:00.077,select this_.id as id1_12_0_, this_.createTime as createTi2_12_0_, this_.lastChangeTime as 
+lastChan3_12_0_, this_.status as status4_12_0_, this_.beenDeleted as beenDele5_12_0_, this_.deletedTime 
+as deletedT6_12_0_, this_.childSerialNumer as childSer7_12_0_, this_.code as code8_12_0_, this_.description 
+as descript9_12_0_, this_.functionId as functio10_12_0_, this_.isControlled as isContr11_12_0_, 
+this_.isHidden as isHidde12_12_0_, this_.isWelcomeMenu as isWelco13_12_0_, this_.name as name14_12_0_, 
+this_.nodeCode as nodeCod15_12_0_, this_.orderIndex as orderIn16_12_0_, this_.parentId as parentI17_12_0_, 
+this_.photoIds as photoId18_12_0_, this_.systemId as systemI19_12_0_ from cloud_menu this_ 
+where this_.beenDeleted=0 and this_.systemId in ('0b5c30768ff2474eb082ff1aa6522af6', '47e9807f6b0e497abff6d9f9ddcaa37d', 
+'df1f2309eebe4908999ae98bc11b013a', '34611956e2664dd6bd98ed07ba22fa0f', '45d63c2a05314f549eda44f777b7456f', 
+'59e0a35d688c4bfa901bdc5fee65048d', 'd1311168da1549e1b57837354eb4011d', '9ab49ceb96394d45841b43a62bd52c25', 
+'5e884683239d41fbaa73cc11dcbc5dd5', 'c0c3f6637312496bb13cbb5859caaa4b', '193d8bb9cfd0403e980fa3de2ebe542d', 
+'2f660e70e54a4230a5e5c05464f78ef6', 'd5a12ef017414644bb55f85459c04c05', '82ee9e80d79649d8816db8d5f4a5d4e8', 
+'e0996641310142ff9ab86df2df9d2eec', '81d3c4b3417f4a9bbba030b4114525e2', '3aec2d02654842d087f6c5b560594846', 
+'a4f878708f7a41949406f474fda7d461', 'f86a33b5f00448d8b1b286b48ab3c0d9', 'ac264637e41c46a388ab5760e5f32f6c', 
+'2ffab410e82e45dfbccaac94ad5a0cff', '75e82a44969f4e139543e7e21e9677e0', '81251144643d403da02193d31d67d88f', 
+'2a952b20a8344347b95ad594641b5e7f', 'beaf26d7b346454bb58c6860992f1d4a', 'adb050dbe6174916a2ccd1bbb57051a3', 
+'e4943db542584b5e9e8a9af715561066', '6eedd031cf9a48bd8888502473b7f040', '4a2c59ca3bf749038d6b3d54f77439b6', 
+'e2a5521bc8be4211b64f7cced8741d5b', '88d4c49e2b824464a85537910d1629e8', 'd076d5edb9924aaf9019aebead53f072', 
+'47bba42d8831496ea1b432666c86d528', '6653b9b84ca34da392fcf2f80e4cdb33', '87c70343906249dba08e8c08de9125b3', 
+'0c68b8305ece4341b63fb754a91f50c5', '12ec3885c7414a21b155dfbfcd377bd5', '53eb71f0512043ad9092c815e06dee53', 
+'6fa70412196e40c992b0df89ab55f4ca', '7ceadad6324d49a2be7569447351221a', 'f2ac7220b27748788baa02e5d8a7cea8', 
+'8e9bc0edd0fd4015af5eb937a2f3a56c', '547f80e2c8fa4c06a70d9e02cccdc3b1', 'df0381653c3c41c7954aebaccd082ab2', 
+'db4fb83c317a49da8099d5a1f0a20357', 'bb04bf00b6cc45629a354c5039bc76b1', '73805795c3774dac997398643c49f687', 
+'f65f3b268155431d9dc4c6c56fdde245') and this_.isHidden=0 order by this_.orderIndex asc 
+ {executed in 20 msec}
+15:00:00.117,SELECT f.id,f.code as functionCode ,f.name as functionName ,CONCAT(s.website,'/',f.uri) url 
+from cloud_function f left join cloud_system s on f.goalSystemId=s.id where f.beenDeleted= 
+0 and s.beenDeleted= 0 and f.uri is not null and f.id in ( 'c4488f8b56ca4d48a1eccca238a30036' 
+, '09e65df3f2f24abc8e2cf4433482da62' , 'ffef81e280fa446b9de601b267afcd6a' , '4e309309587c4b9b9fb56ffc8fba6782' 
+, 'cde15b89481b4cfca1c318876b48c85e' , '2bedd9d56d8e4b13b9b88b51eb7faa53' , 'bd23b43bc3c64f2ca19b8b86cda4bf88' 
+, '25d2b87e3b52446486dfb1e34c2ff84e' , 'b4e095c23e9f11e69788b82a72d4c631' , 'b3315be6a1cb4e18b27688908246de65' 
+, 'da83710217b54e029d3b4bcb3f5ce608' , 'fb633a7132dc42c097d98e166f4b1f67' , '1a73dec53e9d11e69788b82a72d4c631' 
+, '2cece3fb1fbe4809a8484e0cbe7e377a' , '5a34d23ce0f84ecbae513aee1874f2d4' , '66bbb9be98024aad995da262cdc908ff' 
+, '87e15817e2a840f58c4cc8c5d23b4904' , '3481d71c761341708f911111977ea125' , 'a10c6993eca44c659061efdcc5cbe97f' 
+, 'ac59aae4de4046ac960d1a82007d92fb' , '902d597f2cce4ae8af35f8285b14c20e' , 'b26da3f846e94ff38282daa14e51c4cd' 
+, 'c704419e1933473294725ae1a2f99f14' , '43e131fea9454b4bb892072c3d544e46' , '332b9ddfc8a14fc2b65e2e3401c53d04' 
+, '645044d890c348aeb849470aff6c7335' , '60f12d51d2844786bdd75a1f9942702a' , '0bf8b099c75343508e4796a2462e6aed' 
+, 'f9f408e53e9c11e69788b82a72d4c631' , 'a257ac5d3e9e11e69788b82a72d4c631' , 'e6b0747ce27f4fa983e1ba5e00abe44c' 
+, '4ad240713e9d11e69788b82a72d4c631' , 'e8fd71cf4aa047eba413fd0ac7a97ce4' , 'af910d59ad464eff9d949352e2cc2506' 
+, 'f43236154170489aac3f23bd75d7e7e0' , '04c82abe442c482482aab79e5276f3be' , '229c57691ce646c3a0e3e0c732daef5a' 
+, 'd11462c8eebf438aac7484ba007588a3' , '20d391139d4c4238a1874c9461499565' , '24e3138232194e2183b57f4c993b4615' 
+, 'ab05abb993204ed38b92742620554dc6' , 'a38c9ef73e9d11e69788b82a72d4c631' , '3e8dfdf2b2264f259f3a9097cd67225f' 
+, '138413e09a0b422fb1b5095212659258' , '53e0c7c19c7b48ada4d010ec3a41ab76' , '1d0b1b883ea111e69788b82a72d4c631' 
+, '29641bec63bb4337ac50417e6237a6c9' , '792754a4418b44e5b86189922cde424b' , '5420839e26f94674944befa7730110b1' 
+, 'c2920d773e9e11e69788b82a72d4c631' , 'f73644b7db7d462e9a0302b11f1018fa' , 'b5e09d3eff2047ebaf15ee82ef184df3' 
+, '934321bb345542fa909d4d9512f85b2f' , '1ae59c4bb2a34a2ba11e11d455b03b1e' , '103b87a43e9c11e69788b82a72d4c631' 
+, '53424446ddf14ab893c399f029841447' , 'f771e7f0af1f47d8bba735e8229f2dab' , '21d49e86d2934f9cb897251b7933b3c0' 
+, 'ee476f0f46d848cbbc7d6aa0f31bba2e' , '841189743e9c11e69788b82a72d4c631' , 'aedbd41f051f47349b82d618c6c358db' 
+, 'de888e653e9d11e69788b82a72d4c631' , '97f02fa9fde34686a14d4023573a891d' , 'c100c315c1dc427ea1880f12084c7171' 
+, '701d300c570c48ca981e913265e928aa' , '0f32420d5ea04bbe95d5061ac27683dd' , '7bc41fcb3148432b9215d3c002f5b25a' 
+, '6e9ddd6e47fc4482bea0369a982ff845' , '912574fdeb7a4edab4dbe1fa158d5a76' , '3eb07d9d1869451fb7582f36576de283' 
+, 'd89d6516f8db43a182c83ebe53da0ef7' , '95d98ca4e7ce4a99b8ad8332eedfd9e4' , '9e863f78d5ad493eaa163e409f4ecce7' 
+, 'cee2ee83d5ee45adafa5d36ff64f3cf3' , '07aa11d1a49946ef89bf674acb501568' , '524d5e11dd864469832989ea9871045a' 
+, '9eee646bb7c24b0b8754d38a4ab56177' , '03f74890b0384eebb481c00c1f646140' , '38e494a8a4624056b7e9df0e4da9fc6c' 
+, 'a16a0de89f4a4e2ca537b87969035668' , '58b0baa2f9c540bbaf015095f18b0d12' , '24a887e84be046aeb75ac5f1f5d08ca7' 
+, '256bcc157ae14c6fb7ee8aa40af6617b' , '9de598eab4424ffeb60c507e5ee34e02' , '345f7a1935554205a111a84aa45be25e' 
+, '4efd4b58d948409b987de1793280c48d' , '88c610a5e5ca451b8fa9e0e223f73c8c' , '4506d3bd81b04572b6be4663dbcb701d' 
+, 'b8cecc5424c34a03b4a5860cf9a14539' , '5f393b8e07414a5889abc8b67a8d9433' , '0eed74dbec174dcfba9e141afc412495' 
+, '9e9b7b5d4685459090eb73ff9d35fd85' , '7c163ef9d2394935bcec0ac017c3a506' , '5ad0be0c6d104edb9ccc4d6c7164dcb7' 
+, '9a62fab606fb47939096378a98294def' , '1b50262a78f449a59c58b731a6c0aa7f' , '11f95d51a9d542dbab67d099a5492bb6' 
+, 'a8c18346e24c4749a1af1c6d30a6e32d' , '74aabd616ef143fea590bf605f81e7d7' , 'bf61be2d0ee146acaf990721011ff701' 
+, 'd3e90526d19941de9b1b390febf24280' , 'ddfe90063f1a4328840c68224aabb36b' , '9096ace247af46b9bb2d656c6bc97258' 
+, '5674ef6e55214f9fa27255dceaed1af4' , 'fb502c194398473dae69cad1d88028cd' , '3612e8def8af44f3816c372270719e2b' 
+, 'ae3c15915a634de7a84b25613a2535f1' , '239da43bee6743a3a2373f47091cfdc6' , '44d98516a82343d08065cf99ac1c0aeb' 
+, '736612f8d54545e48d6c0313d9a1ee9f' , '3ebde8880bdc4ba7ab34dc7398b23a58' , '4851ea5c969b4001b1ae1900bcd50436' 
+, 'd022c5d89e72479aa5e3e17f485b2d9f' , '493b491e6f894314b85d028974625756' , '7fef57396d81492598aeef551d323d60' 
+, '2a4ecaf6723f45ecb9b19a9b56420195' , '4a0ec3fb4e8442ae81f6cf276d84aee6' , '1e81cb32fa064f64a8f44d71a52b99f7' 
+, 'a874a2a355d34a39897c75a2be077e71' , 'e5bbe5193efa42f2b8e21d72dc4cd9fa' , '91924ec5ecce490bbf00ad74bb4f6c56' 
+, '748873e70cbf4095a0daa9e7195fda0e' , '97780c1176284f43b78432c4757e82c6' , '485d7cd471a848ccaaeccca8f7e65b83' 
+, 'c6f8c7673fc24fa2ab3683f39b320259' , 'bb5ef9be050b49fb9f958dafb7479b75' , '95e714e5329a461192cbd558d6666e38' 
+, '84d454be81c54a2ab1578e815709b7d2' , 'efefef3ed5a341ca8d2e25d12b5d1484' , '8fbe8bbaa89d498f84931aa974a17f75' 
+, '03ff456d26ec4c68bd4bf5600e4a9f4e' , '168d7648bb84469da52974bfc5a5fe42' , 'f4c95c416efa4d96ad88956c1cbfede8' 
+, '6e773cb537724607bd677ff49fe9387b' , 'e77afcd9606b4693845e45bcbe7b3c18' , '7b993b98fcc94732af0da9c5e44c1a76' 
+, '381680bea395457a9ec1f76106049156' , '891d5cce9db34c479e1119570c117582' , '4f24519648084e8299c52e51e835df28' 
+, 'e7c94c7753d04477a6d682dc8b0fa46f' , 'cacde8f8f80a48fd8ab0fb7513bcd86e' , 'f156e902d5c246238706da992dd624c4' 
+, '3de57d86ee5b4064a0a5ea10429ddbd1' , 'fee81a3c382445e6a904bd3447d8a0cf' , '35a75bad2dde45d6b4250ad9a39f3590' 
+, 'b6599fe13bb34024bb25d3c4c6082ccf' , '9fe7d09a6689440ea0e56b9ed55ce11e' , '5d9b93c3b64b46498e5de26649140fa4' 
+, '5906d2f52a154c3eaa7889dc5cde6e19' , '1bfadef67f6447309bd027b5a671fdcb' , 'ce01dc9f568e4863bb5625b4d539c55c' 
+, '15629c1b69d143efaffe6cca938fe004' , '249dbc5436494ebb984f8d47f60410d5' , 'b37b34757f4e48988b2bf8dfd897b60d' 
+, 'c0d5b466c81a438c979f1cf57387c395' , '007d2865e84a4c3d9d73a128a10d259b' , '4ad4aa42661f4cee92640d0124e9349e' 
+, '3a2e637a0b1441b5a21819e733281def' , '599ce4227b844b6f9d572581c57babae' , 'cc9ccc87e5b4482780521eab2ba7802a' 
+, '58dfd2f393064d30978774cf3dfd532e' , '589215f8ac094f3dba036a368e23a230' , '3e5535bc828a45998e2df526abab137a' 
+, '9410a2c8c92147f88ac490882c94fba1' , '5e38faa7badd4a17bd2076c4e99d608b' , '32b5fc1e70d041aa8619b90d6651ad53' 
+, '81c20a8298af40b793d9a11e900b781d' , '9ef1a056f6e14dc6a0824bfdd6356f1d' , '9818c433a7224779a95fcbc712b4ae7f' 
+, 'ac6f16b317c146acb43030d4bef2503f' , 'bfa6011e3e8d46b186470e7a4ec39ad0' , '74c7e2f2792d45669f45e2fc4c029aea' 
+, 'cf44139e591c476faf40079c524a9ee0' , '1a13807ed52a4652a02d5647d4f33665' , '72eae42eef0d4e5faee82f0460cb31d5' 
+, '328bd4d6bf9d4c33b17702665724e973' , 'aaa3a5c837f84027b61df7ecf3a55461' , '94c0725026544f7fa6f0d5f84ba6b547' 
+, '4680b6fa92e24b01bd28c68332135846' , '32c83a9ebd174a619b001d92b4bee268' , '3751431d89004adea2b59a282c8b0a1e' 
+, '1f4e48e212784fe29f94e67021540c25' , '5a4938d8c93e4529b33c774cc219a4a4' , 'a12d09e63e9b490da96f5f312574dc68' 
+, '09cafd8073864b59aaee9b0afed991f5' , 'c9101e83d1534ac7acf287745db80371' , 'bf5b6f7913d8424aa1ddc920485f0fcc' 
+, '257b630d8e994900acd70a7026162539' , '0784649a9db54c03b442c1c2955b0996' , 'd73b883139f3433abddb4aa1725d3cad' 
+, 'd8063bbdddfa4a15bd14a64e720bcf37' , '28281be9040a4db2b19341a45e9f4f58' , '7c10986389bd4b768653435f5f285cff' 
+, '094e3570e85e4a988ab9fa6862ee9134' , 'e79225e5e8a94fe1b5cbd7f420cb1fef' , 'f707ca71c9254ef1b6ef33f256dce9f8' 
+, '229ef0c6a4d5438f96da283f7a526f1b' , '59d0835d798f4e339740c8766d263165' , '5a5d256204bb41ac889515066e05bb2a' 
+, '28b76787df194f3f8b07228cc6f3d615' , 'a3eac983b5d444ed8a5f60bc18be9df6' , 'f11181a5a7e643e9bac363b9586fa9d0' 
+, 'ccdc0926fbe0443eb10d2c9778dfb7b0' , 'c8d7c0046b3e44f68ca3b35c125429be' , '243f6bbda1534fec80c25cc39e6ad2ca' 
+, 'fe9a50ea277b4ef2b10d76d5dc91a598' , '6ec6ac3d3eb447b2a4c43c83626a083b' , '6ae52021d8734d86aebda94dfafa031d' 
+, '94afb49e7a26488f91327fa2de686608' , '6a2e567089484727a98051994e27213c' , 'e4fbe05b0dd049b396127c0db6b72c3e' 
+, '2a776d4ef33e4e6093c9a41ff0fb106e' , '42dcd745379649e2aa225208079dd41b' , '9a99c17b42164959bdb3ca763d7082cf' 
+, '7df01f27071646de83e608ecd15eac6c' , 'ba7aeeb8a3994438a9d29775e19b3acc' , '1966795283fd4f53850cd5a733a5526e' 
+, '5d81aa72741d45559432d5dffb122d27' , '1dd8edd9cc91472daa3c3b817c5a578c' , '1ca368a2fb344ee09b55df3b9ef696c7' 
+, '213a3e97912d494a9ec831aec273bd06' , '32067f6adf9143cba45252a38d04958c' , 'c052ecb6cb824c0b819d86ef6917a161' 
+, '1bb1248e68d9496e9dbb454353d4e7af' , '9239ad2331144138a37c2561d0b0c9c2' , 'be5da32e5e404ca6b3666429da9ed62c' 
+, '9149529c8e104e6bbb079037e2afad03' , 'e89efba992d745a0a82c09d7f40515d1' , 'e55b1af4da2741a8a138a8d77fec9b8d' 
+, '15d88d7768574ff8bacd30381496526f' , '25e0013da3da45038231b1b073d81529' , '07f8c3f944f6429593200df8a6070c93' 
+, '34b5904158114e309ccd2624fdf0fe65' , 'ea1d37cd69fa4423800fe29e7a503afd' , 'b95c53aedbb34a779f5a0896e0d06b70' 
+, 'd8e2ff6855fb428ebbe6fee673528c2d' , 'ccbe3c998b4e427ab8240683ebe97260' , 'ca0d72fcc3a14da88cff2f5d0d2c4b61' 
+, 'acb00d81e3404fd19e0a706df6701103' , '7c2f6dc25109452cac220ada7ade55ac' , '7cfd90fbcdb04dea9528fd0cf96dee8d' 
+, 'e36fb14f7df44d4086b8a9d498955fd8' , 'd12a09791e524e37a0913d761b47dde4' , '82ed8bbba3d44823893d88327abdc9b9' 
+, '24f4347e70d74daa82898cb98a53f2cd' , '63a11e156ab14564ac888a36ac2f7267' , 'bb09a889aa1242f1a37dc06c80a5f902' 
+, '4aa4c0844f554a5ab48b7b50c20ef8f5' , '6cd0fe687c99420ba7344bf5d3cee3cf' , '292cb197d4dc4d3b89af86595c8bf0ab' 
+, 'e1245cabfc3840d7aafb52c57575a9a2' , '86e83e9038324bb48f9f0588c9b67a78' , 'e9069e2f917e474f9135ed9a47d9d85e' 
+, 'ca3f813c810d4fd187d4ca86da9e892a' , '3564fcc3dc464357ba4e298d3866e320' , '266072137e6e4ad18dd30378219ca732' 
+, 'be44159099db40b7ba6dd4c2a8732a41' , 'a700d153715a4bc787c32076a32de224' , '2e96684064cc447096eae9d90a889d0e' 
+, '678db175773d43e4b50ed3b84335c815' , '69098a8cb03f4d9c8336d9fb2d218dcc' , '1f02f1065f5a4de7be64aaaba34f6bd4' 
+, '64b7cfd7caf94fe4b64f717d2614520e' , '230cf8c909d34627806b29fcb644c005' , '660cb78ffc95438baa7b95fafe35d9b3' 
+, '28c4745d70a44c3485885b5ddbcce342' , 'ea9ec8da755040f0ba1a1e04c7eba365' , '1ec6c345622d4143ae1eb6b4d058c541' 
+, '8ca27eeed02a4997bce5e2bf1f382117' , 'e830055cbf844020994a1d7384897893' , '2224f7085d6e425dbc9fb19edab2568a' 
+, '8d1a6b9bf1094672987461977e82f627' , 'f40406a53c0d432e9c21678795e6e51d' , '990bb1de84384dcf90f67de9b083ef65' 
+, '20f934fdd7194b84bc27babd45f3b097' , '24c49727bfcf40648c693e44c345f55f' , '03ac56ef50c94e2bba7f1b818cdd5ffa' 
+, '752a85207f0c44bfbfbaf13655593878' , '19fdd39fa00743da8b1d3967acc80dcb' , '4774bb1a94d74201a62bb179b6d53ac9' 
+, 'b96d8977b87a42758b0ef82bc2e2598e' , '32b49c01d39c47129e4dbe0d197a6372' , '17dcfa27aaf84db0b71c33ec0722f2c1' 
+, '8453b959751249ee8434e4c14b0b070a' , 'e7e58f2715d24aff9b0232c07534a2b2' , '148981e591764ed4b117a22859a60f1d' 
+, '420a07d373254bb9a0f88a87a5e15230' , '1ce45f5c39744d2abe397cf991b307e9' , '20a2457092ca44489b737fcb7e377edd' 
+, 'a8ba0f7c76564d32883678c7b17c4832' , '9f66711a50ae4649a485a0fabd3e7d36' , '5b8ff0226f1646ea800ddb7f071cd442' 
+, 'ea7514813c2a460499e8c7a44697f7e6' , '0465699806964ab8bd9626cef1425950' , '9d0ed0244848457eb84923e45670469c' 
+, 'f2b43093d5434765a4ed0cfcd3f66b4b' , '29f762e3e3c74b3488a9dfc543735158' , 'c46b70b5b9f6412d8a6aa6fd29495933' 
+, '6b600fb99ac9455a8c2015bdfd0de664' , '1e1a804ee31c44c2a223181ceaeb193b' , '8a0a186182a847e9b2e3e4f57733fdd7' 
+, '9bfe790483be45f59b082f51e6b726f3' , '4c55ad491cfa49fea6351dabea342aa1' , '58e54eee2e294612b71accec4b80119f' 
+, '13a457bf136141019c1f024580af16c0' , 'bcc751d34d1643fba073f6d9afd166e9' , '6e5ece7470b64d2ea7335a8521e8b7f5' 
+, 'cc66474f0fad4024a223a374022aaa95' , '8f38f43af57247c3beaa222bc77f7e8b' , 'f9aed7487a7e4e998ebc42c89d1767fb' 
+, '2cd65ca314fd41d2b3832dbf17b7b735' , '475f234640fb4c12bfbd89539a8ac316' , 'baf2267e62a54ddd854b017d7701a8a8' 
+, '954a1ec7581c4bcc947a048b06d0f789' , 'd30826ab51e04c9eaf5cfd83b9271ba6' , '36180c4b4dfb4cbeb3728928afdca82f' 
+, 'fc0f634bb381493d857336ad8326db4b' , '40c47ea798c048ab9aa1315a6b92c5ca' , '601f448c58f2412daeacaeab99fe2c72' 
+, 'fdac1a37e13b494a9499bd6fd5726eee' , 'f270d79bd8a54733a1390d37c20554f3' , 'a875257f76854bfeaf83b287b3231ed7' 
+, 'd764bcb702674898ac2fc92a9ee2efce' , '0190fc433ded4af5ba27352a16f41b12' , 'f41a4c7696634ac88891993ad6f9ae00' 
+, '9216aff849244feaa1f2a537ee4842bb' , '21fda7f8bba145daa426d413b7d24f56' , 'dc43e75bf9294e6caef831d1cc362faf' 
+, 'c86b5fdb422448fc9d5217fc95703ff4' , 'd4fc2dd24a7d4a099df8678ad7a14874' , '9f9af46fb19f49eebe283a41ad91190a' 
+, 'a6d0390ea97741d48976d38a050910ce' , '2cd8e9a4725e4cd8a6ed15c648bafc51' , 'efc9e2ae4b8d4b7eb391958d191688e8' 
+, '55db5407e8d841dfa02ab0556c1731c6' , '79afb9b63aac4ffc9f923d79ecbaa170' , 'dea774cb99de411b89cbc78cbe9c1e28' 
+, '54c1bc7c03ad405ea12c91c79e6dd4e8' , '29faf1619b6346218ae3a5be1e7f8409' , '2064c7ae6c7a4952bb81f800de511e13' 
+, '3b247695cd90497c879e4d00e2b2e0c1' , 'd4e1b2ac27ae4811baf2818897cc1fc5' , 'b9197ef04da9448c9d2e6e9b2a9d6d54' 
+, 'f06a21ba1ab54fb7b05da283cbbcf477' , 'dc38632a71c848ecb63913dcd6afa78f' , '454660f353dd41afae8acaf157ea5f56' 
+, 'd947fa85d32c48bd95f39a05e82ce6da' , 'ccf271fa7d8b45f786060829480da20f' , '9462c4aaecf142539d9f2dc0faed1a4a' 
+, '09856e3393a64a288ba2b70d887f1d6a' , '13ad246ec3ee4d97b0dd4a089b7a45e9' , '0ffcdb95acc04d2c913d5faacbfb3ae7' 
+, '63dc91e9bc5e4e3ea4446e634f5e49c6' , '1e716a60d9a94870a6d065afe5a480cc' ) 
+ {executed in 10 msec}
+15:00:00.137,select t.systemId as id,s.systemCode from cloud_role t left join cloud_system s on s.id = t.systemId 
+where t.code = 'tenantRootRole' and t.beenDeleted=0 and s.beenDeleted=0 
+ {executed in 0 msec}
+15:00:00.147,select this_.id as id1_12_0_, this_.createTime as createTi2_12_0_, this_.lastChangeTime as 
+lastChan3_12_0_, this_.status as status4_12_0_, this_.beenDeleted as beenDele5_12_0_, this_.deletedTime 
+as deletedT6_12_0_, this_.childSerialNumer as childSer7_12_0_, this_.code as code8_12_0_, this_.description 
+as descript9_12_0_, this_.functionId as functio10_12_0_, this_.isControlled as isContr11_12_0_, 
+this_.isHidden as isHidde12_12_0_, this_.isWelcomeMenu as isWelco13_12_0_, this_.name as name14_12_0_, 
+this_.nodeCode as nodeCod15_12_0_, this_.orderIndex as orderIn16_12_0_, this_.parentId as parentI17_12_0_, 
+this_.photoIds as photoId18_12_0_, this_.systemId as systemI19_12_0_ from cloud_menu this_ 
+where this_.beenDeleted=0 and this_.systemId in ('2a952b20a8344347b95ad594641b5e7f') and this_.isHidden=0 
+order by this_.orderIndex asc 
+ {executed in 10 msec}
+15:00:00.147,SELECT f.id,f.code as functionCode ,f.name as functionName ,CONCAT(s.website,'/',f.uri) url 
+from cloud_function f left join cloud_system s on f.goalSystemId=s.id where f.beenDeleted= 
+0 and s.beenDeleted= 0 and f.uri is not null and f.id in ( '4e309309587c4b9b9fb56ffc8fba6782' 
+, 'b3315be6a1cb4e18b27688908246de65' , '3481d71c761341708f911111977ea125' , 'c704419e1933473294725ae1a2f99f14' 
+, '60f12d51d2844786bdd75a1f9942702a' , '20d391139d4c4238a1874c9461499565' , 'f73644b7db7d462e9a0302b11f1018fa' 
+, 'f771e7f0af1f47d8bba735e8229f2dab' , '97f02fa9fde34686a14d4023573a891d' , '5f393b8e07414a5889abc8b67a8d9433' 
+, '9fe7d09a6689440ea0e56b9ed55ce11e' , '4680b6fa92e24b01bd28c68332135846' , '94afb49e7a26488f91327fa2de686608' 
+, 'ea7514813c2a460499e8c7a44697f7e6' , '58e54eee2e294612b71accec4b80119f' , '9462c4aaecf142539d9f2dc0faed1a4a' 
+, '13ad246ec3ee4d97b0dd4a089b7a45e9' , '0ffcdb95acc04d2c913d5faacbfb3ae7' , '63dc91e9bc5e4e3ea4446e634f5e49c6' 
+, '1e716a60d9a94870a6d065afe5a480cc' ) 
+ {executed in 0 msec}
+15:00:03.329,[同步redis,系统完整菜单]，总耗时：3323ms，租户数量：89，系统数量：133，菜单数量：3228，获取租户耗时：31ms，获取所有系统耗时：20ms，获取所有菜单耗时：50ms，获取对应功能耗时：20ms，封装菜单耗时：10ms，添加租户管理员菜单耗时：20ms，存入缓存耗时：3172ms
+15:00:03.342,select this_.id as id1_11_0_, this_.createTime as createTi2_11_0_, this_.lastChangeTime as 
+lastChan3_11_0_, this_.status as status4_11_0_, this_.beenDeleted as beenDele5_11_0_, this_.deletedTime 
+as deletedT6_11_0_, this_.contact as contact7_11_0_, this_.divisionId as division8_11_0_, this_.domain 
+as domain9_11_0_, this_.email as email10_11_0_, this_.enabled as enabled11_11_0_, this_.latitude 
+as latitud12_11_0_, this_.latitudeDone as latitud13_11_0_, this_.longitude as longitu14_11_0_, 
+this_.longitudeDone as longitu15_11_0_, this_.menuUrl as menuUrl16_11_0_, this_.navigationUrl 
+as navigat17_11_0_, this_.phone as phone18_11_0_, this_.tenantCode as tenantC19_11_0_, this_.tenantName 
+as tenantN20_11_0_ from cloud_management_tenant this_ where this_.beenDeleted=0 
+ {executed in 10 msec}
+15:00:03.352,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '019c8438d67b46a99fed4d2f96e94c20' 
+ {executed in 0 msec}
+15:00:03.382,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='fec00a472dc6409ca9f3f09bc95cef48' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:03.412,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '0419503283864c53b5ff00c104ad5579' 
+ {executed in 0 msec}
+15:00:03.422,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '06c7cd71d71d4eb6b523315b384b2235' 
+ {executed in 10 msec}
+15:00:03.422,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '0888cf85092644338daa08fe286ae679' 
+ {executed in 0 msec}
+15:00:03.452,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0cbdfb45ffe24a71b4f307176a8191db' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:03.482,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '0a44ffb26451476984b39a023f8ac2df' 
+ {executed in 0 msec}
+15:00:03.522,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='8741fcfe628649b3b1d6234b09b17f83' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:03.552,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '0e6de4be0de84c6da38c8c9d460a7a60' 
+ {executed in 0 msec}
+15:00:03.552,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '0ebb5207cb054aebb7fce5d88c6e3222' 
+ {executed in 0 msec}
+15:00:03.562,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '1016b14c71024f188999b57ea751c2a8' 
+ {executed in 10 msec}
+15:00:03.562,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '108e4387ddc444e5a247d52b96090a9a' 
+ {executed in 0 msec}
+15:00:03.562,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '10d0310c555e4d0faaee3747c2205902' 
+ {executed in 0 msec}
+15:00:03.592,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0dda5dbba0f040a3ab10db1a0ab75d7a' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:03.632,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '12622abe8c12402ebc145b7d901f9487' 
+ {executed in 10 msec}
+15:00:03.652,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='3ad07d55a90b4a02abfc4bb2f0447a35' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:03.692,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '15a1036a0af140008d0d007cd13b0915' 
+ {executed in 0 msec}
+15:00:03.692,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '19165e0404764567ad2c812bf444d6c6' 
+ {executed in 0 msec}
+15:00:03.692,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '193b9d2fac10495cb2a3da8e3d636d6d' 
+ {executed in 0 msec}
+15:00:03.702,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '1a68f2b071bf4ee997bd12bf8bcee104' 
+ {executed in 10 msec}
+15:00:03.722,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='011028fb5d0f477bae835ca441415d4f' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:03.762,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '20fe3353f4fa4f5488f894349e6951e3' 
+ {executed in 0 msec}
+15:00:03.762,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '25946dcf40be4bebbba9ce314ed4e628' 
+ {executed in 0 msec}
+15:00:03.772,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '27406b1ea40d439aa4896396fca6c2b7' 
+ {executed in 10 msec}
+15:00:03.772,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '2b07e8b5aadd4756a3957d9bf21083c5' 
+ {executed in 0 msec}
+15:00:03.802,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='abd0bb1d31e14f66a4e87a33108699e5' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:03.832,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '2c545b6be2d24f689e7ae9434ac7ff23' 
+ {executed in 0 msec}
+15:00:03.842,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '2c6691b6eef146c0b48a3abcb314bcaf' 
+ {executed in 0 msec}
+15:00:03.872,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='6e314991eacc41c4a48995e6d7be5571' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:03.902,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '2ee983661d464d6aa5a9e7a8b9ecd34e' 
+ {executed in 0 msec}
+15:00:03.932,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='aeb2a918ce9e4e84bca5c6533568a814' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:03.972,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '373b9daca3634fe492abb5eb808e7bd2' 
+ {executed in 0 msec}
+15:00:03.972,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '3dd8cd74d47c4e55b4d5c6c115446943' 
+ {executed in 0 msec}
+15:00:04.002,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='eb52613e10084ff885ecc79d580dadaa' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.042,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '3df5847586df4d01bc14b41f8e592a85' 
+ {executed in 0 msec}
+15:00:04.042,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '48f7fb0c84164ae1abc9c5cce2ce1bf1' 
+ {executed in 0 msec}
+15:00:04.052,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '4bd7b80f13914375bf45c34e74ef7638' 
+ {executed in 10 msec}
+15:00:04.052,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '540f7b512dea48b988e59565c0619654' 
+ {executed in 0 msec}
+15:00:04.082,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='b301301d0bd244ed9d87c13caec037df' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:04.122,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '55188e887ff942748bfea284505fed92' 
+ {executed in 0 msec}
+15:00:04.152,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='36fff8e5861a45d9ae386a6ded013fa5' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.182,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '556adf4e43bb4bcb8dfa3456d4ea446d' 
+ {executed in 0 msec}
+15:00:04.182,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '5803d34a5a544c919cbf06693ef1950f' 
+ {executed in 0 msec}
+15:00:04.212,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='7b51ad8437d647aabeebe546e64f1d76' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.252,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '5908c169c6d846cd9a1cac5edafc4be6' 
+ {executed in 0 msec}
+15:00:04.262,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '591a3c17dd564366855c8d25e74de013' 
+ {executed in 10 msec}
+15:00:04.262,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '595383ea81e24b858e7aea832eb5a920' 
+ {executed in 0 msec}
+15:00:04.292,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ec04f570627b4f4399df424e8f23bb25' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:04.332,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '5fa9194d80c042bd80b2b0e0ba32de5b' 
+ {executed in 0 msec}
+15:00:04.339,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '653013061f3b4f318d793727a77baf39' 
+ {executed in 2 msec}
+15:00:04.369,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='da6ab95fae1c4bef834ce1d95c476db1' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.409,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '658afc1c2164463fb1f31061ef3d359e' 
+ {executed in 0 msec}
+15:00:04.409,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '67ffbbac051647cc9cecc0b3bcd5c513' 
+ {executed in 0 msec}
+15:00:04.419,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '6b04b934d2364525b35fc79167d761d1' 
+ {executed in 10 msec}
+15:00:04.419,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '6ea09ab08e0a4474aaf87cfb4e1c8b66' 
+ {executed in 0 msec}
+15:00:04.449,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='8ecdcdcefb1445899d49cc998ec212e0' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.499,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '6fe0789def6b44cca5bbb4a2496f40d4' 
+ {executed in 10 msec}
+15:00:04.529,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0ac1af6108914a728f4beaa3b237ad4e' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:04.569,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '7338ab395fe54a69bb2610366e868988' 
+ {executed in 0 msec}
+15:00:04.579,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '775dd360053740c8b7c8c17fb7920ae1' 
+ {executed in 10 msec}
+15:00:04.579,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '78e783fed3654f1db99948e36330536d' 
+ {executed in 0 msec}
+15:00:04.579,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '7c5d788f780541c7b106a32165afe80f' 
+ {executed in 0 msec}
+15:00:04.609,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='8fe86c12301d4194b97032189659ff65' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.649,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '7e6362d9701040479394bca66300f265' 
+ {executed in 0 msec}
+15:00:04.659,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '7f694736e9554096aa32e0fac92b0664' 
+ {executed in 10 msec}
+15:00:04.679,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1702cca69a4f4fdaa90de5853a72c374' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.719,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '7fcf12f853d841b7831e6d81c67414dc' 
+ {executed in 0 msec}
+15:00:04.779,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='42b508f569b2440d825d52670740882a' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.819,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='412adc13dcfc43f5bac173d9e9a55e46' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.859,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='34dc6a5d662e4424a79d3c365e8c1124' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.899,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '8118f87387c6442291a92d4437abc6c4' 
+ {executed in 10 msec}
+15:00:04.899,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '820fc983ab1846b1ae2254a5c5021c47' 
+ {executed in 0 msec}
+15:00:04.899,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '83fada9ed83e4f37aba9abac9f1e3a78' 
+ {executed in 0 msec}
+15:00:04.899,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '88cd95794f234363928046609574bd96' 
+ {executed in 0 msec}
+15:00:04.939,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='acb30c12e50542738176970c1db8ade9' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:04.979,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0a46979ad5ca4bebb5883492afdffe58' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.019,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '90f2101c9f4844509b434e5b0aa24407' 
+ {executed in 0 msec}
+15:00:05.019,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '962a55ca95d44dfaa970a8129052fb3b' 
+ {executed in 0 msec}
+15:00:05.049,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='f5316787b3e246d392d2a526423b79ef' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:05.079,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '9d08be0474af45538709aff3646e3d76' 
+ {executed in 0 msec}
+15:00:05.089,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '9d9be1e01b4d491d92212866cde3fbba' 
+ {executed in 0 msec}
+15:00:05.089,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '9e6ee67f75f648559536e0c60454b8a6' 
+ {executed in 0 msec}
+15:00:05.119,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='4017b529bb2c4af79cc9831e47338e45' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.159,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = '9fccca56387744b4b9f02ceb38dd8259' 
+ {executed in 9 msec}
+15:00:05.159,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'a3542090fb90415db8f61d48c214d144' 
+ {executed in 0 msec}
+15:00:05.189,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='810fb5c371294ebfabee3f21c7307b6f' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:05.220,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'a482702060274f50ab323f027367015e' 
+ {executed in 0 msec}
+15:00:05.250,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='24f3ba32a85d41e2b8877d54b157ea96' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.280,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'a50fc0f773d443b190da77b851533b35' 
+ {executed in 0 msec}
+15:00:05.310,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1de8b439be1149a7b6415d8d6449faf1' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.350,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'a579abd9183f4f4eaa07f46b36ac3f01' 
+ {executed in 0 msec}
+15:00:05.376,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='7fc15c1934854238b6e8d94a743f98e8' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.456,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'a5f8ec8ee51b4959af5e1305379440ae' 
+ {executed in 0 msec}
+15:00:05.456,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'ab5bed35a52a49c9b3e6eeeb1751875c' 
+ {executed in 0 msec}
+15:00:05.456,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'abc82c7ae6234ea98475bd73ccc4d503' 
+ {executed in 0 msec}
+15:00:05.466,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'acf83cd567364d1b9653f8c14f3765d6' 
+ {executed in 0 msec}
+15:00:05.466,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'af7f13af4e1240dbbc7098cde3c18aab' 
+ {executed in 0 msec}
+15:00:05.496,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1c8caa5fbb7f4f7dbcb53d8c3fa357b7' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.536,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'b1500785bf904d73bea9d2d254a7878d' 
+ {executed in 0 msec}
+15:00:05.536,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'b4045b9d7034430982b33e2bbcd0a3c7' 
+ {executed in 0 msec}
+15:00:05.566,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1f3ce843fd4a40b8a99eb93f42ec3975' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.616,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'b53bb07fb4504c4abec836a2235b6049' 
+ {executed in 10 msec}
+15:00:05.776,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='b797ba62c78a46afa90bc9930c7a4af3' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.816,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='c55180b4f4044fc4a682125f27d1c9fc' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:05.856,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='2478c48a4d944859a891e987ca55506b' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:05.886,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ad91ba92368d47e28f905da61a5e6e6d' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.896,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='32c12652cf094c8ea12c1169a4798883' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:05.936,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='6b247751a09947fa999f148cd8bf224b' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:05.976,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='b5a75422aa484297a82506f9336b9c90' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.016,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='bde944ded5524c039be4800c13097caf' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.056,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='54e7802a821c4436b591507fc9f3c6bf' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.096,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ca04831468ac460185e6adf8965c9454' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.136,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='86d9b3fc5b2d455c8653ce5f92aa7bff' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.176,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='7eb54b245beb4e76a1032a8c0b6519c4' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.176,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='afb39cd8085040b7b2775aeed0e5d533' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.216,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='7176b64eb3164c15a1ee0c3462348ddb' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.257,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'b5f4c68e6f48472d9620bf1ad5477672' 
+ {executed in 0 msec}
+15:00:06.257,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'b62e720eea4a4086b13dde5d459357a9' 
+ {executed in 0 msec}
+15:00:06.266,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'bb55afe4672f4cb491e9c0ebb934ef9a' 
+ {executed in 9 msec}
+15:00:06.266,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'd145ebfd317447e9a7c7952874ca0cda' 
+ {executed in 0 msec}
+15:00:06.297,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ee4226c9ad1e4c978de47e3b3fb48a0f' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 11 msec}
+15:00:06.337,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'd355f3d4de424f52b31af0d882914527' 
+ {executed in 11 msec}
+15:00:06.467,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='017ccf47cdc74f038261d19e5b3925c3' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.476,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0e133336e75b494095e52f7ad5eca174' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 9 msec}
+15:00:06.526,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='196338a911bf49d6aa9ce58a677154cc' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.566,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1d400fc7d00f4e4eb1bca623ae067dbe' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.576,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1d939545be8e46f2805c740c14c18ceb' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.576,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='214acc89942d43629eeb9576b2589e73' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.616,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='22ba4c1b8f334ddd85d2edfba7efc6cf' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.616,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='2b2de18e7b0943f6ad33ea547d2d1ea3' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.626,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='2d52545880d64dcc9d951c2910d1fa58' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.646,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='2f5856591ab944808d1095cc0dd1c3bb' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.657,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='2fc8b38e655840e39958497056196c04' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 11 msec}
+15:00:06.657,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='34d31b2315c9419bb11639740074c550' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.657,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='3c3d6c4797c04513a4df3f00bf79ae2c' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.686,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='424c2fb0078548f383900d02ecfa57ac' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.717,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='560f02b7e1614d7294692e3df34b54aa' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.717,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='595ce5d018ab4dd0af18239b4b2a3344' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.726,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='65475a7d20314b9c998c01717b1b6e74' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 9 msec}
+15:00:06.726,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='68816224700d429d8f60c33ac25de30e' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.776,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='695aeccc547b415180bb604a91c13ab7' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.796,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='74a2d3469b2a4b4895fde349466b2d58' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.796,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='7afb4c588e7641ca9313d50d117e5813' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.806,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='7e8964fee8c54e51a7e0ee6b40798bec' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.836,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='861c0240b7ae446a9ac08aadab1e091e' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.846,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='a1cd622d1da74c6cb506b920649a08d1' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.846,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='a2ced2345d7f4b0ca098e839aa63537e' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.846,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='a3b90ee5c02b4af5813376c22c3427cb' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.886,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='aa86c9c16f274de2b0b7aa96c6e649a0' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.926,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='b7d596839e1c40b8a2b8b06f17917ad7' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 9 msec}
+15:00:06.926,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='bdc8ac56290947c58147efab6110c47a' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.926,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='df60b14b6a4f47c39823ae50edc6818f' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.926,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='e929c75a581b41babd1daa4da79eb70c' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.937,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ea05a7642da644f0afcf689bdf7ec290' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 11 msec}
+15:00:06.967,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ec3dbdc2dd7f4eb3836a367221f6ee18' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.967,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='f1c8485a862c428c868396b042954246' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:06.977,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='f9e895f5ec384728be9334016a5d76d1' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:06.977,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='fbd547c4625a4abe824de83850e50d55' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.007,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'd612c82c8ecc4051aa25da740f77041e' 
+ {executed in 0 msec}
+15:00:07.017,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'd85faf626e2b45bdb88b6a14a6f2ef5f' 
+ {executed in 0 msec}
+15:00:07.037,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='f204f09836d8448faf3f783f41e152f2' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.077,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'decc7028c92e41d49e61eaefc4af2642' 
+ {executed in 0 msec}
+15:00:07.109,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='bd5ed47db38642f99beebcbe6821cbc4' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 3 msec}
+15:00:07.149,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'e0de29fb52874fe4a7bf03538771b754' 
+ {executed in 0 msec}
+15:00:07.149,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'e3a405e05e234876a41c40859768f855' 
+ {executed in 0 msec}
+15:00:07.179,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='da136129f08b40248d99722ced99224b' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.219,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'e9917368a8a84c2b944d371d617d0110' 
+ {executed in 0 msec}
+15:00:07.249,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='a8e514af39034b6ab8c5e0e8d6f0d8dd' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:07.279,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'ec2e8f1be02e44b5b3472673aad1517f' 
+ {executed in 0 msec}
+15:00:07.289,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'ec7afbf6b3864cf5a62bd4de63432ab3' 
+ {executed in 0 msec}
+15:00:07.319,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ff125a8bb81947b4a8f27b726033dbf9' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:07.359,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'f0d7e0dfd0b647e2889c8ec3d44de303' 
+ {executed in 10 msec}
+15:00:07.359,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'f1d7761d79dd43ef9bccb3c78ed3516f' 
+ {executed in 0 msec}
+15:00:07.389,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='b29de66f02fc4427bbc95fa696c1143f' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:07.429,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'f530c3b987a54712985f6cf421424777' 
+ {executed in 10 msec}
+15:00:07.459,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='9aae0f50c8e44d7ba6248fe02f59db45' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.499,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'f65f3b268155431d9dc4c6c56fdde245' 
+ {executed in 0 msec}
+15:00:07.541,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0311928fdebb4d1487298df621a7c343' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.551,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId LEFT JOIN cloud_management_tenant 
+cmt ON cmt.id = cs.tenantId WHERE cu.beenDeleted = 0 and cs.beenDeleted = 0 and cmt.beenDeleted 
+= 0 and cmt.id = 'fccc2df2cc3246a28758d7d194839d0e' 
+ {executed in 10 msec}
+15:00:07.551,SELECT cu.id FROM cloud_user cu LEFT JOIN cloud_staff cs ON cs.id = cu.staffId WHERE cu.beenDeleted 
+= 0 and cs.beenDeleted = 0 and cs.tenantId is null 
+ {executed in 0 msec}
+15:00:07.821,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='20fc2f70db134eda9b47011bcb65dbc0' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.851,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='11111111111111111111111111111111' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:07.919,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='fa3635fe5e6d4b35b8e8fbc9d3d9798b' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 3 msec}
+15:00:07.955,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='b94d68a97b824fbabbcc9355790d1d61' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.005,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='cdf7119cfb2b4960b3937db5e2808559' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.045,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='0ecd9cd5240548889d8445ae6e3e95db' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.095,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='00e9c6c3f4294af4a0fab0c8d8d73dfc' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:08.135,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='9b7faefddd80406b870991cfc3007003' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.195,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='1cf3b6c0ce6d4dd18519cbae83f150f5' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:08.235,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='08013f9c90a443a2b5d4b34cf0928046' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.285,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='a2f8a9e7dd994e8baeaf0a4898e4f62e' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.345,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='12570a23f75b4b10b69e72ae4a8aed27' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.385,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='5dff9e82720e45b281d6e94a827aa0d8' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.435,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='71a693bcd24a4070ba58f736b946e133' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.475,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='ed6739c424044d81a44a0a65526fff64' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.545,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='9a177e8441994609b41e5d62d3804b69' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 10 msec}
+15:00:08.588,SELECT DISTINCT c.id,c.code from cloud_user_role a,cloud_function_role b,cloud_function c where 
+a.userId='6d03a9025e834aac973783b28fb445a2' and a.roleId=b.roleId and b.functionId=c.id and 
+a.beenDeleted=0 and b.beenDeleted=0 and c.beenDeleted=0 
+ {executed in 0 msec}
+15:00:08.638,[同步redis,初始化用户功能码及菜单]，总耗时：5306ms，租户数量：89，用户数量：108

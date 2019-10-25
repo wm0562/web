@@ -1,0 +1,13 @@
+15:48:31.901,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4204541c: startup date [Tue Dec 26 15:48:31 CST 2017]; root of context hierarchy
+15:49:12.707,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4204541c: startup date [Tue Dec 26 15:49:12 CST 2017]; root of context hierarchy
+15:49:12.811,HV000001: Hibernate Validator 5.4.1.Final
+15:49:13.384,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+15:49:13.470,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c949ca3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:53:38.709,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4204541c: startup date [Tue Dec 26 15:53:38 CST 2017]; root of context hierarchy
+15:53:38.771,HV000001: Hibernate Validator 5.4.1.Final
+15:53:39.314,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+15:53:39.399,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$94a37494] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:59:05.316,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4602c2a9: startup date [Tue Dec 26 15:59:05 CST 2017]; root of context hierarchy
+15:59:05.644,HV000001: Hibernate Validator 5.4.1.Final
+15:59:06.663,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+15:59:06.781,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9acc2c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

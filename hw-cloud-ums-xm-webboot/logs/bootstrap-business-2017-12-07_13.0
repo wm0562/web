@@ -1,0 +1,20 @@
+13:39:11.628,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a62689d: startup date [Thu Dec 07 13:39:11 CST 2017]; root of context hierarchy
+13:39:11.790,HV000001: Hibernate Validator 5.4.1.Final
+13:39:12.754,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:39:12.972,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3a637a70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:52:17.652,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a62689d: startup date [Thu Dec 07 13:52:17 CST 2017]; root of context hierarchy
+13:52:17.769,HV000001: Hibernate Validator 5.4.1.Final
+13:52:18.269,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:52:18.351,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3a637a70] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:52:58.260,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4204541c: startup date [Thu Dec 07 13:52:58 CST 2017]; root of context hierarchy
+13:52:58.431,HV000001: Hibernate Validator 5.4.1.Final
+13:52:59.281,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:52:59.387,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37fc6e78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:55:11.269,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a62689d: startup date [Thu Dec 07 13:55:11 CST 2017]; root of context hierarchy
+13:55:11.422,HV000001: Hibernate Validator 5.4.1.Final
+13:55:11.901,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:55:11.995,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49e8501d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:55:54.349,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6a62689d: startup date [Thu Dec 07 13:55:54 CST 2017]; root of context hierarchy
+13:55:54.407,HV000001: Hibernate Validator 5.4.1.Final
+13:55:55.036,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+13:55:55.133,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$146feffa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)

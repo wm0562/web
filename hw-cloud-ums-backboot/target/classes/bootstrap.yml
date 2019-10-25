@@ -1,0 +1,11 @@
+spring.application.name: vortex-ums-backboot
+
+logging:
+  config: classpath:logback-spring.xml
+
+feign.compression.request.enabled: true
+feign.compression.response.enabled: true
+
+
+
+    

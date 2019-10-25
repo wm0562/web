@@ -1,0 +1,58 @@
+14:43:14.741,Fetching config from server at: http://localhost:8888
+14:43:16.008,Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/vortex-ums/dev": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+14:43:16.013,The following profiles are active: dev
+14:43:16.054,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cd166b8: startup date [Tue Dec 26 14:43:16 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ce86164
+14:43:20.972,Multiple Spring Data modules found, entering strict repository configuration mode!
+14:43:22.218,BeanFactory id=978f9959-1c07-3531-9319-4c0f5a23ffa3
+14:43:22.266,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+14:43:22.665,Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f07a99a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:43:23.165,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$22a73fe7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:43:23.200,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c949ca3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:43:24.615,Tomcat initialized with port(s): 9002 (http)
+14:43:24.640,Starting service Tomcat
+14:43:24.642,Starting Servlet Engine: Apache Tomcat/8.5.6
+14:43:24.939,Initializing Spring embedded WebApplicationContext
+14:43:24.940,Root WebApplicationContext: initialization completed in 8886 ms
+14:43:25.706,Mapping servlet: 'dispatcherServlet' to [/]
+14:43:25.718,Mapping filter: 'metricsFilter' to: [/*]
+14:43:25.718,Mapping filter: 'characterEncodingFilter' to: [/*]
+14:43:25.719,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:43:25.722,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:43:25.726,Mapping filter: 'requestContextFilter' to: [/*]
+14:43:25.728,Mapping filter: 'webRequestLoggingFilter' to: [/*]
+14:43:25.779,Mapping filter: 'applicationContextIdFilter' to: [/*]
+14:43:26.957,HHH000412: Hibernate Core {5.2.10.Final}
+14:43:26.966,HHH000206: hibernate.properties not found
+14:43:27.404,HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:43:28.332,{dataSource-1} inited
+14:43:28.376,HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14:43:53.699,Fetching config from server at: http://localhost:8888
+14:43:54.853,Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/vortex-ums/dev": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+14:43:54.859,The following profiles are active: dev
+14:43:54.890,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4c48fe92: startup date [Tue Dec 26 14:43:54 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ce86164
+14:43:59.039,Multiple Spring Data modules found, entering strict repository configuration mode!
+14:44:00.258,BeanFactory id=978f9959-1c07-3531-9319-4c0f5a23ffa3
+14:44:00.318,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+14:44:00.671,Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e93eddf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:01.064,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$1b6b8432] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:01.095,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$558e0ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:02.205,Tomcat initialized with port(s): 9002 (http)
+14:44:02.234,Starting service Tomcat
+14:44:02.239,Starting Servlet Engine: Apache Tomcat/8.5.6
+14:44:02.560,Initializing Spring embedded WebApplicationContext
+14:44:02.561,Root WebApplicationContext: initialization completed in 7671 ms
+14:44:03.222,Mapping servlet: 'dispatcherServlet' to [/]
+14:44:03.234,Mapping filter: 'metricsFilter' to: [/*]
+14:44:03.236,Mapping filter: 'characterEncodingFilter' to: [/*]
+14:44:03.237,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:44:03.238,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:44:03.240,Mapping filter: 'requestContextFilter' to: [/*]
+14:44:03.241,Mapping filter: 'webRequestLoggingFilter' to: [/*]
+14:44:03.243,Mapping filter: 'applicationContextIdFilter' to: [/*]
+14:44:04.254,HHH000412: Hibernate Core {5.2.10.Final}
+14:44:04.259,HHH000206: hibernate.properties not found
+14:44:04.696,HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:44:05.504,{dataSource-1} inited
+14:44:05.547,HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14:44:10.731,{dataSource-2} inited
+14:44:10.733,HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="cloud-ums" target="1.5" />
+      <module name="hw-cloud-ums-api" target="1.8" />
+      <module name="hw-cloud-ums-backboot" target="1.8" />
+      <module name="hw-cloud-ums-config" target="1.8" />
+      <module name="hw-cloud-ums-dao" target="1.8" />
+      <module name="hw-cloud-ums-domain" target="1.8" />
+      <module name="hw-cloud-ums-manager" target="1.8" />
+      <module name="hw-cloud-ums-parent" target="1.5" />
+      <module name="hw-cloud-ums-service" target="1.8" />
+      <module name="hw-cloud-ums-ui" target="1.8" />
+      <module name="hw-cloud-ums-util" target="1.8" />
+      <module name="hw-cloud-ums-webboot" target="1.8" />
+      <module name="hw-cloud-ums-xm-dao" target="1.8" />
+      <module name="hw-cloud-ums-xm-domain" target="1.8" />
+      <module name="hw-cloud-ums-xm-service" target="1.8" />
+      <module name="hw-cloud-ums-xm-webboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

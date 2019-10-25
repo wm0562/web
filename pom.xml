@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.vortex.cloud</groupId>
+	<artifactId>cloud-ums</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>hw-cloud-ums-parent</module>
+		<module>hw-cloud-ums-config</module>
+		<module>hw-cloud-ums-api</module>
+		<module>hw-cloud-ums-domain</module>
+		<module>hw-cloud-ums-xm-domain</module>
+		<module>hw-cloud-ums-util</module>
+		<module>hw-cloud-ums-dao</module>
+		<module>hw-cloud-ums-xm-dao</module>
+		<module>hw-cloud-ums-manager</module>
+		<module>hw-cloud-ums-service</module>
+		<module>hw-cloud-ums-xm-service</module>
+		<module>hw-cloud-ums-ui</module>
+		<module>hw-cloud-ums-backboot</module>
+		<module>hw-cloud-ums-webboot</module>
+		<module>hw-cloud-ums-xm-webboot</module>
+	</modules>
+</project>

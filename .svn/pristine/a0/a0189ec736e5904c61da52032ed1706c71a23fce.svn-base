@@ -1,0 +1,395 @@
+09:35:07.554,Fetching config from server at: http://localhost:8888
+09:35:08.810,Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/vortex-ums/dev": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+09:35:08.813,The following profiles are active: dev
+09:35:08.834,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2416498e: startup date [Wed Dec 27 09:35:08 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4f936da8
+09:35:13.936,Multiple Spring Data modules found, entering strict repository configuration mode!
+09:35:14.613,BeanFactory id=c3e82a49-70f3-3a71-8381-422e2a8b12fe
+09:35:14.673,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:35:15.116,Bean 'com.vortex.cloud.ums.dataaccess.service.feign.ICloudRestAlarmFeignService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:15.843,Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27712977] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:16.010,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$599dcfb8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:16.041,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$438b2c74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:32.164,Fetching config from server at: http://localhost:8888
+09:35:33.350,Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/vortex-ums/dev": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+09:35:33.352,The following profiles are active: dev
+09:35:33.369,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e93dcb9: startup date [Wed Dec 27 09:35:33 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4b85880b
+09:35:37.894,Multiple Spring Data modules found, entering strict repository configuration mode!
+09:35:38.460,BeanFactory id=c3e82a49-70f3-3a71-8381-422e2a8b12fe
+09:35:38.512,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:35:38.921,Bean 'com.vortex.cloud.ums.dataaccess.service.feign.ICloudRestAlarmFeignService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:39.157,Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$53a9a982] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:39.262,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$85d64fc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:39.288,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6fc3ac7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:35:40.418,Tomcat initialized with port(s): 9002 (http)
+09:35:40.443,Starting service Tomcat
+09:35:40.447,Starting Servlet Engine: Apache Tomcat/8.5.6
+09:35:40.763,Initializing Spring embedded WebApplicationContext
+09:35:40.764,Root WebApplicationContext: initialization completed in 7395 ms
+09:35:41.458,Mapping servlet: 'dispatcherServlet' to [/]
+09:35:41.473,Mapping filter: 'metricsFilter' to: [/*]
+09:35:41.474,Mapping filter: 'characterEncodingFilter' to: [/*]
+09:35:41.474,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:35:41.476,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:35:41.476,Mapping filter: 'requestContextFilter' to: [/*]
+09:35:41.477,Mapping filter: 'webRequestLoggingFilter' to: [/*]
+09:35:41.477,Mapping filter: 'applicationContextIdFilter' to: [/*]
+09:35:42.173,HHH000412: Hibernate Core {5.2.10.Final}
+09:35:42.178,HHH000206: hibernate.properties not found
+09:35:42.591,HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09:35:43.523,{dataSource-1} inited
+09:35:43.574,HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+09:35:53.940,Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cloudMenuService2': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cloudMenuDao2': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'jdbcTemplate2' available
+09:35:53.947,Stopping service Tomcat
+09:35:53.990,
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+09:35:54.206,Application failed to start due to an exception
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'jdbcTemplate2' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:275)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:522)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:522)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.vortex.cloud.ums.xm.UmsXmWebBootApplication.main(UmsXmWebBootApplication.java:37)
+09:35:54.207,
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'jdbcTemplate2' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'jdbcTemplate2' in your configuration.
+
+09:37:06.686,Fetching config from server at: http://localhost:8888
+09:37:07.869,Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/vortex-ums/dev": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+09:37:07.871,The following profiles are active: dev
+09:37:07.890,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c891ba7: startup date [Wed Dec 27 09:37:07 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4f936da8
+09:37:12.409,Multiple Spring Data modules found, entering strict repository configuration mode!
+09:37:12.998,BeanFactory id=df53eef0-cab3-3306-bdec-9bb711e4d69b
+09:37:13.045,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:37:13.454,Bean 'com.vortex.cloud.ums.dataaccess.service.feign.ICloudRestAlarmFeignService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:37:13.685,Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ad1015e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:37:13.787,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$df3cbc29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:37:13.817,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c92a18e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:37:14.919,Tomcat initialized with port(s): 9002 (http)
+09:37:14.946,Starting service Tomcat
+09:37:14.950,Starting Servlet Engine: Apache Tomcat/8.5.6
+09:37:15.283,Initializing Spring embedded WebApplicationContext
+09:37:15.284,Root WebApplicationContext: initialization completed in 7394 ms
+09:37:15.961,Mapping servlet: 'dispatcherServlet' to [/]
+09:37:15.976,Mapping filter: 'metricsFilter' to: [/*]
+09:37:15.979,Mapping filter: 'characterEncodingFilter' to: [/*]
+09:37:15.981,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:37:15.984,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:37:15.986,Mapping filter: 'requestContextFilter' to: [/*]
+09:37:15.988,Mapping filter: 'webRequestLoggingFilter' to: [/*]
+09:37:15.990,Mapping filter: 'applicationContextIdFilter' to: [/*]
+09:37:16.728,HHH000412: Hibernate Core {5.2.10.Final}
+09:37:16.733,HHH000206: hibernate.properties not found
+09:37:17.167,HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+09:37:18.093,{dataSource-1} inited
+09:37:18.165,HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+09:37:25.164,{dataSource-2} inited
+09:37:25.165,HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+09:37:33.746,Using DataSource [net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy@8922006] of Hibernate SessionFactory for HibernateTransactionManager
+09:37:33.770,Using DataSource [net.sf.log4jdbc.sql.jdbcapi.DataSourceSpy@194eae3e] of Hibernate SessionFactory for HibernateTransactionManager
+09:37:36.403,Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c891ba7: startup date [Wed Dec 27 09:37:07 CST 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4f936da8
+09:37:36.798,Mapped "{[/cloud/management/rest/np/xm/sysorg/getSysOrgDominaTree],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.getSysOrgDominaTree(javax.servlet.http.HttpServletRequest)
+09:37:36.801,Mapped "{[/cloud/management/rest/np/xm/sysorg/saveOrg],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.saveOrgInfo(javax.servlet.http.HttpServletRequest)
+09:37:36.802,Mapped "{[/cloud/management/rest/np/xm/sysorg/getNamesByIds],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.getNamesByIds(javax.servlet.http.HttpServletRequest)
+09:37:36.803,Mapped "{[/cloud/management/rest/np/xm/sysorg/getSysOrgTree],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.getSysOrgTree(javax.servlet.http.HttpServletRequest)
+09:37:36.804,Mapped "{[/cloud/management/rest/np/xm/sysorg/updateOrg],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.updateOrg(javax.servlet.http.HttpServletRequest)
+09:37:36.806,Mapped "{[/cloud/management/rest/np/xm/sysorg/checkCode],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.checkCode(javax.servlet.http.HttpServletRequest)
+09:37:36.806,Mapped "{[/cloud/management/rest/np/xm/sysorg/getDeptOrgTree],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.getDeptOrgTree(javax.servlet.http.HttpServletRequest)
+09:37:36.807,Mapped "{[/cloud/management/rest/np/xm/sysorg/listByType],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.listByType(javax.servlet.http.HttpServletRequest)
+09:37:36.808,Mapped "{[/cloud/management/rest/np/xm/sysorg/getIdsByNames],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.getIdsByNames(javax.servlet.http.HttpServletRequest)
+09:37:36.809,Mapped "{[/cloud/management/rest/np/xm/sysorg/deleteOrgs],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.deleteOrgs(javax.servlet.http.HttpServletRequest)
+09:37:36.809,Mapped "{[/cloud/management/rest/np/xm/sysorg/changeParent],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.changeParent(javax.servlet.http.HttpServletRequest)
+09:37:36.810,Mapped "{[/cloud/management/rest/np/xm/sysorg/loadOrg],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.loadOrg(javax.servlet.http.HttpServletRequest)
+09:37:36.810,Mapped "{[/cloud/management/rest/np/xm/sysorg/hasChild],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.hasChild(javax.servlet.http.HttpServletRequest)
+09:37:36.811,Mapped "{[/cloud/management/rest/np/xm/sysorg/getAllSysOrg],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.getAllSysOrg(javax.servlet.http.HttpServletRequest)
+09:37:36.812,Mapped "{[/cloud/management/rest/np/xm/sysorg/pageList],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto com.vortex.cloud.ums.xm.api.SysOrgXmApi.pageList(javax.servlet.http.HttpServletRequest)
+09:37:36.818,Mapped "{[/cloud/management/util/fileServerAddress.sa],methods=[GET || POST]}" onto public java.util.Map<java.lang.String, java.lang.String> com.vortex.cloud.ums.util.web.CloudCommonController.getFileServerAddress(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:36.820,Mapped "{[/cloud/management/util/getSystemIdByCode],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto<java.lang.String> com.vortex.cloud.ums.util.web.CloudCommonController.getSystemIdByCode(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:36.820,Mapped "{[/cloud/management/util/logininfo.sa],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto<com.vortex.cloud.vfs.data.dto.LoginReturnInfoDto> com.vortex.cloud.ums.util.web.CloudCommonController.logininfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:36.821,Mapped "{[/cloud/management/util/hasFunctions],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto<java.util.Map<java.lang.String, java.lang.Boolean>> com.vortex.cloud.ums.util.web.CloudCommonController.hasFunctions(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+09:37:36.822,Mapped "{[/cloud/management/util/changePassword.sa],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto<java.lang.String> com.vortex.cloud.ums.util.web.CloudCommonController.changePassword(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:36.823,Mapped "{[/cloud/management/util/getMenuJson.sa],methods=[GET || POST]}" onto public com.vortex.cloud.vfs.data.dto.RestResultDto<java.util.Map<java.lang.String, java.lang.Object>> com.vortex.cloud.ums.util.web.CloudCommonController.getMenuJson(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:36.830,Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:37:36.831,Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:37:36.938,Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:36.940,Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:37.080,Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:37:38.766,Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:37:38.767,Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+09:37:38.768,Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+09:37:38.770,Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+09:37:38.771,Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+09:37:38.775,Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.776,Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.777,Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:37:38.778,Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.782,Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+09:37:38.782,Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.784,Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+09:37:38.787,Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+09:37:38.787,Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.788,Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.789,Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:37:38.790,Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+09:37:38.796,Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+09:37:38.797,Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.798,Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.799,Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.801,Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:38.802,Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:37:39.531,No URLs will be polled as dynamic configuration sources.
+09:37:39.531,To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:37:39.550,No URLs will be polled as dynamic configuration sources.
+09:37:39.551,To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:37:40.272,Registering beans for JMX exposure on startup
+09:37:40.295,Bean with name 'environmentManager' has been autodetected for JMX exposure
+09:37:40.298,Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+09:37:40.300,Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+09:37:40.302,Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+09:37:40.304,Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+09:37:40.305,Bean with name 'refreshScope' has been autodetected for JMX exposure
+09:37:40.310,Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+09:37:40.346,Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+09:37:40.380,Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+09:37:40.391,Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+09:37:40.426,Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7c891ba7,type=ConfigurationPropertiesRebinder]
+09:37:40.448,Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+09:37:40.456,Registering beans for JMX exposure on startup
+09:37:40.902,Starting beans in phase 0
+09:37:40.920,Setting initial instance status as: STARTING
+09:37:41.015,Initializing Eureka in region us-east-1
+09:37:41.376,Using JSON encoding codec LegacyJacksonJson
+09:37:41.376,Using JSON decoding codec LegacyJacksonJson
+09:37:41.664,Using XML encoding codec XStreamXml
+09:37:41.665,Using XML decoding codec XStreamXml
+09:37:42.432,Resolving eureka endpoints via configuration
+09:37:42.625,Disable delta property : false
+09:37:42.625,Single vip registry refresh property : null
+09:37:42.625,Force full registry fetch : false
+09:37:42.625,Application is null : false
+09:37:42.625,Registered Applications size is zero : true
+09:37:42.626,Application version is -1: true
+09:37:42.626,Getting all instance registry info from the eureka server
+09:37:42.954,The response status is 200
+09:37:42.956,Starting heartbeat executor: renew interval is: 30
+09:37:42.969,InstanceInfoReplicator onDemand update allowed rate per min is 4
+09:37:42.973,Discovery Client initialized at timestamp 1514338662973 with initial instances count: 0
+09:37:43.025,Registering application vortex-ums with eureka with status UP
+09:37:43.028,Saw local status change event StatusChangeEvent [timestamp=1514338663027, current=UP, previous=STARTING]
+09:37:43.031,DiscoveryClient_VORTEX-UMS/vortex-ums:10.10.10.234:9002: registering service...
+09:37:43.040,Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+09:37:43.064,Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+09:37:43.076,Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+09:37:43.082,Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+09:37:43.091,Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+09:37:43.114,Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+09:37:43.127,Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+09:37:43.135,Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+09:37:43.141,Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+09:37:43.146,Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+09:37:43.153,Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+09:37:43.161,Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+09:37:43.187,DiscoveryClient_VORTEX-UMS/vortex-ums:10.10.10.234:9002 - registration status: 204
+09:37:43.212,Initializing ProtocolHandler ["http-nio-9002"]
+09:37:43.252,Starting ProtocolHandler [http-nio-9002]
+09:37:43.282,Using a shared selector for servlet write/read
+09:37:43.362,Tomcat started on port(s): 9002 (http)
+09:37:43.364,Updating port to 9002
+09:37:43.370,Started UmsXmWebBootApplication in 40.192 seconds (JVM running for 41.408)
+09:38:12.957,Disable delta property : false
+09:38:12.957,Single vip registry refresh property : null
+09:38:12.958,Force full registry fetch : false
+09:38:12.958,Application is null : false
+09:38:12.958,Registered Applications size is zero : true
+09:38:12.958,Application version is -1: false
+09:38:12.958,Getting all instance registry info from the eureka server
+09:38:12.993,The response status is 200
+09:41:34.681,Initializing Spring FrameworkServlet 'dispatcherServlet'
+09:41:34.681,FrameworkServlet 'dispatcherServlet': initialization started
+09:41:34.746,FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+09:41:34.905,查询失败！
+java.lang.NullPointerException: null
+	at com.vortex.cloud.ums.xm.api.SysOrgXmApi.loadOrg(SysOrgXmApi.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+09:41:44.161,查询失败！
+java.lang.NullPointerException: null
+	at com.vortex.cloud.ums.xm.api.SysOrgXmApi.loadOrg(SysOrgXmApi.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)

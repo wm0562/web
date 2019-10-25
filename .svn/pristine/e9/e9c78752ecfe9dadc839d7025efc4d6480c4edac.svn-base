@@ -1,0 +1,84 @@
+logServer: vortex-logstash
+server.port: 18089
+
+server.tomcat.max-threads: 800
+
+spring.datasource: 
+  type: com.alibaba.druid.pool.DruidDataSource
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://vortex-mysql/cloud_management?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
+  username: ${MYSQL_USER}
+  password: ${MYSQL_PASSWORD}
+  initialSize: 5
+  minIdle: 5
+  maxActive: 20
+  maxWait: 60000
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 1 FROM DUAL
+  testWhileIdle: true
+  testOnBorrow: false
+  testOnReturn: false 
+  poolPreparedStatements: true
+  maxPoolPreparedStatementPerConnectionSize: 20 
+  filters: stat,wall,log4j
+  connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+
+spring.datasource2: 
+  type: com.alibaba.druid.pool.DruidDataSource
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://vortex-mysql/cloud_management?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true
+  username: ${MYSQL_USER}
+  password: ${MYSQL_PASSWORD}
+  initialSize: 5
+  minIdle: 5
+  maxActive: 20
+  maxWait: 60000
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 1 FROM DUAL
+  testWhileIdle: true
+  testOnBorrow: false
+  testOnReturn: false 
+  poolPreparedStatements: true
+  maxPoolPreparedStatementPerConnectionSize: 20 
+  filters: stat,wall,log4j
+  connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+#hibernate
+hibernate: 
+  dialect: org.hibernate.dialect.MySQL5Dialect
+  hbm2ddl.auto: update
+  show_sql: false
+  format_sql: false
+  current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+  packagesToScan: com.vortex.cloud
+
+
+# redis
+spring.redis:
+  database: 3
+  host: vortex-redis
+  port: 6379
+  password: ${REDIS_PASSWORD}
+  timeout: 0
+  pool:
+    max-active: -1
+    max-wait: -1
+    max-idle: 8
+    min-idle: 0
+
+URL_GATEWAY: http://vortex-gateway:18082
+
+eureka:
+  instance:
+    non-secure-port: ${server.port}
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 10
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://vortex-eureka:8761/eureka/
+      
+server.kafka.address: vortex-kafka:9092
